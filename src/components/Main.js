@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+
 
 export default function Main(props) {
     return (<section>
@@ -8,7 +11,8 @@ export default function Main(props) {
             <div className="card-text">
                 <div className="card-text1">
                     <p className="card-text1-1">
-                        <img src={props.item.imageLocation} alt="logo" />&nbsp;
+                        {/* <img src={props.item.imageLocation} alt="logo" />&nbsp; */}
+                        <FontAwesomeIcon icon={faLocationDot} color="red" />&nbsp;
                         {props.item.location}
                         &nbsp;&nbsp;&nbsp;
                         <span>
