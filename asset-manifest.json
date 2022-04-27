@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/travel-journal/static/css/main.610c8dce.css",
+    "main.js": "/travel-journal/static/js/main.52cd0ef7.js",
+    "static/media/earth-logo.svg": "/travel-journal/static/media/earth-logo.bdb367915a01bf83ea841a237d1c3880.svg",
+    "index.html": "/travel-journal/index.html",
+    "main.610c8dce.css.map": "/travel-journal/static/css/main.610c8dce.css.map",
+    "main.52cd0ef7.js.map": "/travel-journal/static/js/main.52cd0ef7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.610c8dce.css",
+    "static/js/main.52cd0ef7.js"
+  ]
+}
