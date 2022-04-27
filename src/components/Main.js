@@ -8,11 +8,15 @@ export default function Main(props) {
             <div className="card-text">
                 <div className="card-text1">
                     <p className="card-text1-1">
-                        <img src={props.item.imageLocation} />&nbsp;
-                            {props.item.location}
-                            &nbsp;&nbsp;&nbsp;
+                        <img src={props.item.imageLocation} alt="logo" />&nbsp;
+                        {props.item.location}
+                        &nbsp;&nbsp;&nbsp;
                         <span>
-                        {props.item.mapText}
+                            <a href={props.item.mapLink} target="_blank" className="link">
+                                {props.item.mapText}
+                            </a>
+
+
                         </span>
                     </p>
                 </div>

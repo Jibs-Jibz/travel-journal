@@ -95,3 +95,6 @@ hr {
   font-size: 14px;
   /* background-color: blue; */
 }
+.link:hover{
+  color: #f55a5a;
+}
